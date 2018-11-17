@@ -125,7 +125,7 @@ header p span {
 
 
 
-/* RESPOSNIVE | MEDIA QUERIES (max-width: 800px) */
+/* RESPONSIVE | MEDIA QUERIES (max-width: 800px) */
 
 @media all and (max-width: 800px) {
 
@@ -140,5 +140,15 @@ header p span {
     .pic {
         flex: 0 0 49%;
         padding: 5px 0
+    }
+}
+
+
+
+/* RESPONSIVE | MEDIA QUERIES (min-width: 551px) */
+
+@media all and (min-width: 551px) {
+    br {
+        display: none
     }
 }
