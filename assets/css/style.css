@@ -124,6 +124,39 @@ header p span {
 
 
 
+/* FOOTER */
+
+footer {
+    margin-top: 40px
+}
+
+footer nav {
+    text-align: center
+}
+
+footer nav ul {
+    margin: 0;
+    padding: 0
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 3px 7px
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #0C1A7F;
+    font-weight: bold;
+    transition: 0.3s
+}
+
+footer nav ul li a:hover {
+    opacity: 0.7
+}
+
+
+
 
 /* RESPONSIVE | MEDIA QUERIES (max-width: 800px) */
 
@@ -214,5 +247,5 @@ header p span {
     .pic {
         flex: 0 0 100%
     }
-    
+
 }
